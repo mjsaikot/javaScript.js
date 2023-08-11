@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.slide').owlCarousel
+    $('.owl-carousel').owlCarousel
     ({
         items : 1,
         nav:true,
@@ -11,6 +11,6 @@ $(document).ready(function(){
         animateOut:'bounceOutLeft',
         autoplayTimeout:3000,
         autoplaySpeed:1800,
-        margin:50,
+        margin:40,
     });
 })
