@@ -16,7 +16,7 @@ let f = n.replace(/France/g, "Brazil"); // g for global. it will replace all wor
 console.log("After using 'g' flag then replace: ", f);
 let r = "I love india. India is a good country. I born in india.";
 console.log("Before replaceAll: ", r);
-let ra = r.replaceAll(/India/ig, "Bangladesh");
+let ra = r.replaceAll(/India/ig, "Bangladesh.");
 console.log("After ReplaceAll: ", ra);
 
 let t1 = "Hello";
